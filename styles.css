@@ -32,12 +32,6 @@ nav a { text-decoration: none;
     transition: color 3s ease-out; }
 nav a    {     color: blueviolet; }
 nav a:hover   { color: #A52A2A; }
-main  { background-color: #FFFFFF;
-    
-    padding: 1px 20px 20px 30px;
-    display: block;
-    overflow: auto;
-}
 
 h2    {
     text-shadow: 1px 1px  #CCCCCC;
@@ -63,6 +57,7 @@ h2    {
     max-width: 100%;
     background-color: rgb(52, 28, 141);
     height: 100%;
+    padding-bottom: 30px;
 }
 
 main{
@@ -182,18 +177,18 @@ form textarea {
 form input[type="submit"] {
     margin-left: 120px;
     margin-bottom: 20px;
-    width: 10%;
-    background-color: #333366;
-    padding: 2px;
-    color: white;
-    border: none;
+    width: 12%;
+    background-color: rgb(242, 242, 242);
+    padding: 8px;
+    color: black;
+    border: 1px solid black;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9em;
 }
 
 form input[type="submit"]:hover {
-    background-color: #5555AA;
+    background-color: rgb(194, 187, 187);
 }
 
 .dialog {
@@ -217,9 +212,10 @@ form input[type="submit"]:hover {
 
 .close-btn {
     cursor: pointer;
-    color: #007BFF;
-    border: none;
+    color: black;
+    border: 1px solid black;
     background: none;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 1em;
+    background-color: rgb(242, 242, 242);
 }
