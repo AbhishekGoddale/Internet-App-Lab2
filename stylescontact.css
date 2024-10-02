@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2f7238;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.content {
+    background-color: white;
+    padding: 0;
+    text-align: left;
+    border-left: 100px solid #333366;
+    border-right: 100px solid #333366;
+}
+
+.content h2 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 20px;
+    color: #333366;
+}
+
+.content h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 20px;
+    color: #333366;
+}
+
+.content p {
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.yoga-classes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.yoga-classes article {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    margin-left: 40px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.savasana-image {
+    width: 94%;
+    height: 250px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-style: normal;
+}
+
+/* Yoga Schedule Page Styling */
+.schedule-table {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 70%;
+}
+
+table {
+    width: 45%;
+    max-height: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9ff;
+}
+
+caption {
+    font-size: 1em;
+    color: #333366;
+}
+
+th, td {
+    padding: 3px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+}
+
+th {
+    color: #333366;
+}
+
+tr:nth-child(even) {
+    background-color: #b7d7e2a9;
+}
+
+.serenity-image {
+    display: block;
+    margin: 20px auto;
+    width: 94%;
+    height: 250px;
+}
+
+/* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+form .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 1em;
+    color: #333366;
+    margin-right: 10px;
+    width: 100px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    flex: 1;
+    margin-left: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    max-width: 40%;
+}
+
+form input[type="submit"] {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 10%;
+    background-color: #333366;
+    padding: 2px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5555AA;
+}
+
+.dialog {
+    display: none; /* Initially hide the dialog */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    color: #007BFF;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+/* Footer styling */
+.footer {
+    padding-bottom: 20px;
+}
+
+.footer p {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    font-size: 0.9em;
+    font-style: italic;
+}
